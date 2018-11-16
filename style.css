@@ -1,0 +1,99 @@
+ul {
+    background-color: #9A9999;
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 0px;
+  }
+
+li {
+    float: right;
+  }
+
+.company {
+    float: left;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family: sans-serif;
+    display: block;
+    padding: 12px 14px;
+    text-decoration: none;
+    overflow: hidden;
+  }
+
+a {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: sans-serif;
+    display: block;
+    padding: 12px 14px;
+    text-decoration: none;
+  }
+  
+.head{
+    display: flex;
+    background-color: black;
+    height: 200px;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    color: #F8F808;
+    font-size: 40px;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 0px;
+    margin-top: 0px;
+}
+.largebox{
+  height: 300px;
+  margin-top: 50px;
+}
+
+.smallbox1{
+  width: 250px;
+  height: 250px;
+  background-color: #5EF4B7;
+  float: left;
+  margin-left: 100px;
+  border-radius: 15px;
+}
+
+.smallbox2{
+  width: 250px;
+  height: 250px;
+  background-color: #5EF4B7;
+  float: left;
+  margin-left: 150px;
+  border-radius: 15px;
+}
+.smallbox3{
+  width: 250px;
+  height: 250px;
+  background-color: #5EF4B7;
+  float: right;
+  margin-right: 100px;
+  border-radius: 15px;
+}
+
+.medbox1{
+  width: 400px;
+  height: 250px;
+  background-color: #F9BB56;
+  float: left;
+  margin-top: 50px;
+  margin-left: 150px;
+}
+
+.medbox2{
+  width: 400px;
+  height: 250px;
+  background-color: #F9BB56;
+  float: right;
+  margin-top: 50px;
+  margin-right: 150px;
+}
+
