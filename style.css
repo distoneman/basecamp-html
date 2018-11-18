@@ -80,20 +80,40 @@ h1 {
 }
 
 .medbox1{
-  width: 400px;
+  width: 500px;
   height: 250px;
   background-color: #F9BB56;
   float: left;
   margin-top: 50px;
-  margin-left: 150px;
+  margin-left: 100px;
 }
 
 .medbox2{
-  width: 400px;
+  width: 500px;
   height: 250px;
   background-color: #F9BB56;
   float: right;
   margin-top: 50px;
+  margin-right: 100px;
+}
+
+.text{
+  width: 500px;
+  float: left;
+  margin-left: 150px;
+}
+
+.image {
+  widows: 500px;
+  float: right;
   margin-right: 150px;
 }
 
+img {
+  width: 200px;
+  height: 150px;
+}
+.footer {
+  background-color: #3A2950;
+  height: 50px;
+}
