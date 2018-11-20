@@ -31,82 +31,40 @@ a {
     text-decoration: none;
   }
   
-.head{
-    display: flex;
-    background-color: black;
-    height: 200px;
-    align-content: center;
-    align-items: center;
-    justify-content: center;
-}
-
-h1 {
+h1.header {
     color: #F8F808;
+    background-color: black;
     font-size: 40px;
     font-family: sans-serif;
     text-align: center;
-    padding: 0px;
+    padding: 125px;
     margin-top: 0px;
 }
-.largebox{
-  height: 300px;
-  margin-top: 50px;
-}
 
-.smallbox1{
+.three-up{
+  display: inline-block;
+  background-color: #5EF4B7;
   width: 250px;
   height: 250px;
-  background-color: #5EF4B7;
-  float: left;
-  margin-left: 100px;
-  border-radius: 15px;
+  margin: 75px;
+  border-radius: 15px;  
 }
 
-.smallbox2{
-  width: 250px;
-  height: 250px;
-  background-color: #5EF4B7;
-  float: left;
-  margin-left: 150px;
-  border-radius: 15px;
-}
-.smallbox3{
-  width: 250px;
-  height: 250px;
-  background-color: #5EF4B7;
-  float: right;
-  margin-right: 100px;
-  border-radius: 15px;
-}
-
-.medbox1{
-  width: 500px;
-  height: 250px;
+.two-up-color{
+  display: inline-block;
   background-color: #F9BB56;
-  float: left;
-  margin-top: 50px;
-  margin-left: 100px;
-}
-
-.medbox2{
   width: 500px;
   height: 250px;
-  background-color: #F9BB56;
-  float: right;
-  margin-top: 50px;
-  margin-right: 100px;
+  margin: 50px;
 }
 
-.text{
+.two-up{
+  display: inline-block;
   width: 500px;
-  float: left;
-  margin-left: 150px;
-}
-
-.image {
-  widows: 500px;
-  float: right;
-  margin-right: 150px;
+  height: 150px;
+  margin: 50px;
+  padding: 15px;
+  vertical-align: center;
 }
 
 img {
